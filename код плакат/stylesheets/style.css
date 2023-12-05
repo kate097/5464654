@@ -1,0 +1,11 @@
+@import 'reset.css';
+@import 'content.css';
+@import "responsive.css";
+@font-face {
+    font-family: "PP Pangram Sans Medium";
+    src: url("../fonts/PP\ Pangram\ Sans\ Medium\ 400.otf")
+}
+@font-face {
+    font-family: "RubikBubbles";
+    src: url("../fonts/RubikBubbles-Regular.ttf")
+}

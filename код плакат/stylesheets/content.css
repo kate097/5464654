@@ -1,0 +1,133 @@
+html {
+    background:rgb(224, 190, 190) ;
+}
+.poster {
+  overflow: hidden;
+  background:rgba(239, 167, 176, 1); 
+}
+.firtstext {
+  font-size: 90px;
+  width: 2262px;
+  font-family: "PP Pangram Sans";
+  font-weight: Medium;
+  margin-top: 21px;
+  margin-left: 29px;
+  color: #EFA7B0;
+  font-size: 90px;
+  white-space: nowrap;
+  animation: text-move 2s infinite linear;
+  background-color: azure;
+  }
+  .firtstext:hover{color: #66CEC8;}
+@keyframes text-move {
+  0% {transform: translateX(0)}
+  100% {transform: translateX(-1200px)}
+}
+
+
+.ramka {
+  position: relative;
+  top: 10px;
+  width: 823px;
+  height: 174px;
+  flex-shrink: 0;
+}
+
+.kartinka1 {
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 338px;
+  height: 223px;
+  background-image: url("/images/облакобелое.jpg");
+  }
+
+  .kartinka2 {
+    margin-top: -223px;
+    margin-left: 470px;
+    width: 338px;
+    height: 223px;
+    flex-shrink: 0;
+    background-image: url("/images/облакобелое.jpg");
+  }
+
+  .kartinka3 {
+    margin-top: -223px;
+    margin-left: 890px;
+    width: 338px;
+    height: 223px;
+    background-image: url("/images/облакобелое.jpg");
+    }
+
+    
+
+.kartinka1:hover {
+  background-image: url("/images/облакорозовое.jpg");
+}
+.kartinka1:after {
+  background-image: url("/images/облакобелое.jpg");
+}
+
+.kartinka2:hover {
+  background-image: url("/images/облакорозовое.jpg");
+}
+.kartinka2:after {
+  background-image: url("/images/облакобелое.jpg");
+}
+
+.kartinka3:hover {
+  background-image: url("/images/облакорозовое.jpg");
+}
+.kartinka3:after {
+  background-image: url("/images/облакобелое.jpg");
+}
+
+.pryamoygolnik {
+  margin-top: 10px;
+ left: 0px;
+ top: 0px;
+ width: 1440px;
+ height: 350px;
+ background-color: rgba(255, 255, 255, 1); 
+}
+
+.bigtext {
+  font-size: 460px;
+  width: 2262px;
+  font-family: "RubikBubbles";
+  font-weight: normal;
+  margin-top: -400px;
+  margin-left: 29px;
+  color: rgba(185, 173, 255, 1);
+  white-space: nowrap;
+  animation: text-move 5s infinite;
+  }
+
+.pryamoygolnikbig {
+  margin-top: -45px;
+  left: 0px;
+  top: 0px;
+  width: 1440px;
+  height: 698px;
+  background-color: rgba(239, 167, 176, 1); 
+}
+
+.eyes {
+  top: 10px;
+  width: 30px;
+  height: 25px;
+  display: block;
+  position: relative;
+  background: url("../images/глаза\ аним.png");
+  animation: walk 0.9s steps(1)infinite;
+
+}
+
+@keyframes walk {
+  0% { background-position: 0px top; }
+  25% { background-position: -68px top; }
+  50% { background-position: -134px top; }
+  100% { background-position: -204px top; } }
+
+
+
+
